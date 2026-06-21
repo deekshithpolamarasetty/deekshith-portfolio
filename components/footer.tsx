@@ -35,8 +35,7 @@ export function Footer() {
 
       <div className="border-t border-white/10 px-4 py-5 sm:px-6">
         <p className="text-center text-xs text-slate-400">
-          &copy; {new Date().getFullYear()} {siteConfig.name}. Built with
-          Next.js, Tailwind CSS &amp; Framer Motion.
+          &copy; {new Date().getFullYear()} {siteConfig.name}.
         </p>
       </div>
     </footer>

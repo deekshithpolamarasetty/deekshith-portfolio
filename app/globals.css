@@ -76,3 +76,38 @@ button,
 a {
   -webkit-tap-highlight-color: transparent;
 }
+
+/* ── Hero CSS animations (no JS needed, runs on first paint) ── */
+@keyframes heroFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) translateZ(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) translateZ(0);
+  }
+}
+
+.hero-fade-in {
+  opacity: 0;
+  animation: heroFadeIn 0.7s cubic-bezier(0.21, 0.47, 0.32, 0.98) forwards;
+  will-change: opacity, transform;
+}
+
+.hero-delay-1 { animation-delay: 0.05s; }
+.hero-delay-2 { animation-delay: 0.15s; }
+.hero-delay-3 { animation-delay: 0.25s; }
+.hero-delay-4 { animation-delay: 0.35s; }
+.hero-delay-5 { animation-delay: 0.45s; }
+.hero-delay-6 { animation-delay: 0.55s; }
+.hero-delay-7 { animation-delay: 0.65s; }
+
+/* Reduce animation durations + delays for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .hero-fade-in {
+    animation: none;
+    opacity: 1;
+  }
+}
+
