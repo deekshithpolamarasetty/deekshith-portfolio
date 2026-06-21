@@ -4,7 +4,6 @@ import { About } from "@/components/about";
 import { Skills } from "@/components/skills";
 import { FeaturedProjects } from "@/components/featured-projects";
 import { Services } from "@/components/services";
-import { Testimonials } from "@/components/testimonials";
 import { CtaBanner } from "@/components/cta-banner";
 
 export default function HomePage() {
@@ -16,7 +15,6 @@ export default function HomePage() {
       <Skills />
       <FeaturedProjects />
       <Services />
-      <Testimonials />
       <CtaBanner />
     </>
   );
