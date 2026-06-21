@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 255 255 255;
+  --foreground: 15 23 42;
+}
+
+.dark {
+  --background: 9 9 14;
+  --foreground: 226 232 240;
+}
+
+* {
+  border-color: hsl(215 16% 47% / 0.15);
+  /* Prevent content from overflowing horizontally on any device */
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  /* Use dynamic viewport height so mobile address bars don't cause layout shifts */
+  min-height: 100dvh;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  -webkit-font-smoothing: antialiased;
+  /* Better text rendering on mobile */
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #818cf8 0%, #6366f1 40%, #10b981 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 8s ease infinite;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(to right, rgb(99 102 241 / 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(99 102 241 / 0.06) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+::selection {
+  background: rgb(99 102 241 / 0.3);
+}
+
+/* custom scrollbar - only on non-touch devices */
+@media (hover: hover) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(99 102 241 / 0.4);
+    border-radius: 999px;
+  }
+}
+
+/* Ensure tap targets are large enough on mobile (44px min) */
+button,
+[role="button"],
+a {
+  -webkit-tap-highlight-color: transparent;
+}
