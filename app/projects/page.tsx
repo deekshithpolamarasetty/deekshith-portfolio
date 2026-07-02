@@ -7,7 +7,7 @@ import { projects } from "@/lib/projects";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Production systems and case studies — multi-tenant SaaS, API gateways, and full-stack apps.",
+    "Production systems and case studies: multi-tenant SaaS, API gateways, and full-stack apps.",
 };
 
 export default function ProjectsPage() {

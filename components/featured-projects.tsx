@@ -9,9 +9,8 @@ export function FeaturedProjects() {
   return (
     <Section id="projects">
       <SectionHeading
-        eyebrow="Selected Work"
         title="Featured Projects"
-        description="Production systems ranked by impact — from multi-tenant SaaS to API platforms."
+        description="Production systems ranked by impact, from multi-tenant SaaS to API platforms."
       />
       {/* 1 col mobile, 2 col md+ */}
       <div className="grid gap-4 sm:gap-5 md:grid-cols-2">
@@ -23,7 +22,7 @@ export function FeaturedProjects() {
       </div>
       <div className="mt-8 flex justify-center sm:mt-10">
         <Button href="/projects" variant="outline" className="w-full sm:w-auto">
-          View all projects
+          View Work
           <ArrowRight size={18} />
         </Button>
       </div>

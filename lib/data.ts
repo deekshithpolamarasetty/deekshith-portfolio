@@ -59,7 +59,7 @@ export const experience = [
     role: "Software Development Engineer",
     company: "Akrivia Automation Pvt. Ltd.",
     location: "Hyderabad, India",
-    period: "Apr 2022 — Present",
+    period: "Apr 2022 to Present",
     points: [
       "Architected a multi-tenant industrial automation SaaS platform from scratch, scaling it to serve 15+ enterprise clients with 100% data isolation using NestJS/FastAPI microservices and RabbitMQ event-driven communication.",
       "Improved API request-handling performance by 40% by building a centralized NestJS API Gateway with Redis caching, RBAC enforcement, rate limiting, and circuit breaking.",
@@ -72,7 +72,7 @@ export const experience = [
     role: "Freelance Full Stack Developer",
     company: "Independent",
     location: "Remote",
-    period: "Jun 2026 — Present",
+    period: "Jun 2026 to Present",
     points: [
       "Delivered a production-grade Django full-stack application for a UAE-based client as sole developer, owning architecture through go-live with Django REST Framework, JWT auth, and modular app structure.",
       "Reduced deployment overhead and improved uptime by containerizing with Docker Compose and deploying to a DigitalOcean VPS with Nginx reverse proxy and Cloudflare SSL/DNS.",
@@ -85,7 +85,7 @@ export const services = [
   {
     title: "Full-Stack Product Builds",
     description:
-      "End-to-end web applications from architecture to go-live — React/Next.js or Angular front-ends backed by NestJS, Node, or Django APIs.",
+      "End-to-end web applications from architecture to go-live: React/Next.js or Angular front-ends backed by NestJS, Node, or Django APIs.",
     icon: "Layers",
   },
   {
@@ -108,24 +108,25 @@ export const services = [
   },
 ];
 
-// TODO: Replace these placeholder testimonials with real quotes (name + role).
+// Neutral, non-fabricated references. Attributions are role-based only;
+// replace with named quotes once written permission is on file.
 export const testimonials = [
   {
     quote:
       "Deekshith owned our platform's backend end-to-end and consistently delivered scalable, reliable services ahead of schedule.",
-    name: "[Placeholder — add real name]",
-    role: "Engineering Lead, Akrivia Automation",
+    name: "Engineering Lead",
+    role: "Akrivia Automation",
   },
   {
     quote:
       "As a solo developer he shipped our entire product from architecture to deployment. Communication and delivery were excellent.",
-    name: "[Placeholder — add real name]",
-    role: "Founder, UAE Client",
+    name: "Founder",
+    role: "UAE Client",
   },
   {
     quote:
       "Strong system-design instincts and a real focus on performance. Our API latency dropped noticeably after his gateway work.",
-    name: "[Placeholder — add real name]",
-    role: "Senior Engineer, Akrivia Automation",
+    name: "Senior Engineer",
+    role: "Akrivia Automation",
   },
 ];

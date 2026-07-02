@@ -7,7 +7,6 @@ export function Testimonials() {
   return (
     <Section id="testimonials">
       <SectionHeading
-        eyebrow="Testimonials"
         title="What people say"
         description="A few words from people I've worked with."
       />

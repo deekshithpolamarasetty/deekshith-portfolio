@@ -13,9 +13,8 @@ export function Services() {
       className="border-y border-white/10 bg-brand-500/[0.03]"
     >
       <SectionHeading
-        eyebrow="For Clients"
         title="How I can help"
-        description="Need something built? I take products from idea to production — backend, frontend, and the DevOps in between."
+        description="Need something built? I take products from idea to production: backend, frontend, and the DevOps in between."
       />
       {/* 1 col mobile, 2 col sm+ */}
       <div className="grid gap-4 sm:grid-cols-2 sm:gap-5">
@@ -42,7 +41,7 @@ export function Services() {
       </div>
       <div className="mt-8 flex justify-center sm:mt-10">
         <Button href="/contact" className="w-full sm:w-auto">
-          Start a project
+          Hire Me
           <ArrowRight size={18} />
         </Button>
       </div>

@@ -6,7 +6,6 @@ export function Skills() {
   return (
     <Section id="skills">
       <SectionHeading
-        eyebrow="Toolbox"
         title="Skills & Tech Stack"
         description="The technologies I use to design, build, and ship production systems."
       />

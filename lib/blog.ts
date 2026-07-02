@@ -22,11 +22,11 @@ export const posts: Post[] = [
       "## Why multi-tenancy is hard",
       "Serving many enterprise clients from one platform means every architectural decision is also a security and isolation decision. A single leaky query can expose one tenant's data to another.",
       "## The isolation strategy",
-      "We enforced tenant-level data isolation at every layer — from the gateway down to the database. Each request carried a verified tenant context, and data access was scoped by default rather than as an afterthought.",
+      "We enforced tenant-level data isolation at every layer, from the gateway down to the database. Each request carried a verified tenant context, and data access was scoped by default rather than as an afterthought.",
       "## Onboarding as a first-class feature",
       "Manual onboarding doesn't scale. We built automated provisioning with feature flags and subscription tiers, cutting onboarding time by 80%.",
       "## Takeaways",
-      "Design isolation in from day one, automate tenant lifecycle early, and pick a data strategy that matches your workloads — we used MongoDB for time-series and SQL Server for relational data.",
+      "Design isolation in from day one, automate tenant lifecycle early, and pick a data strategy that matches your workloads: we used MongoDB for time-series and SQL Server for relational data.",
     ].join("\n\n"),
   },
   {

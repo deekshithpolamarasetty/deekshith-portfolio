@@ -17,8 +17,8 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — ${siteConfig.role}`,
-    template: `%s — ${siteConfig.name}`,
+    default: `${siteConfig.name} · ${siteConfig.role}`,
+    template: `%s · ${siteConfig.name}`,
   },
   description: siteConfig.description,
   keywords: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
-    title: `${siteConfig.name} — ${siteConfig.role}`,
+    title: `${siteConfig.name} · ${siteConfig.role}`,
     description: siteConfig.description,
     siteName: siteConfig.name,
     images: [
@@ -44,13 +44,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: `${siteConfig.name} — ${siteConfig.role}`,
+        alt: `${siteConfig.name} · ${siteConfig.role}`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} — ${siteConfig.role}`,
+    title: `${siteConfig.name} · ${siteConfig.role}`,
     description: siteConfig.description,
     images: ["/og-image.png"],
   },
@@ -72,7 +72,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="min-h-screen">{children}</main>
+          <main className="min-h-[100dvh]">{children}</main>
           <Footer />
         </ThemeProvider>
         <Analytics />

@@ -26,7 +26,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
   return (
     <article className="mx-auto w-full max-w-3xl px-4 pb-20 pt-24 sm:px-6 sm:pb-24 sm:pt-28 md:pt-32">
-      {/* Back link — larger tap target on mobile */}
+      {/* Back link, larger tap target on mobile */}
       <Link
         href="/projects"
         className="inline-flex h-10 items-center gap-2 rounded-lg px-1 text-sm text-slate-500 transition hover:text-brand-500"

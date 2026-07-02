@@ -9,7 +9,6 @@ export function About() {
   return (
     <Section id="about">
       <SectionHeading
-        eyebrow="About"
         title="Engineering systems that scale"
         description="I'm a Full Stack Software Engineer with 4+ years building scalable, distributed, multi-tenant SaaS. I specialize in microservices, event-driven architecture, and cloud infrastructure, with a track record of shipping production systems for 15+ enterprise clients."
       />
@@ -22,7 +21,7 @@ export function About() {
             <ul className="mt-3 space-y-2.5 text-sm text-slate-500 dark:text-slate-400 sm:mt-4 sm:space-y-3">
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-400" />
-                End-to-end ownership &mdash; from architecture to production.
+                End-to-end ownership, from architecture to production.
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-400" />

@@ -37,7 +37,7 @@ export const projects: Project[] = [
       { value: "100%", label: "Data segregation" },
     ],
     problem:
-      "Industrial manufacturers needed a single platform to monitor machine health in real time, predict faults, and act before downtime — while keeping each client's data fully isolated.",
+      "Industrial manufacturers needed a single platform to monitor machine health in real time, predict faults, and act before downtime, while keeping each client's data fully isolated.",
     architecture: [
       "Multi-tenant architecture with tenant-level data isolation and enterprise SSO.",
       "Real-time IoT telemetry ingestion feeding predictive alert pipelines.",
@@ -103,9 +103,9 @@ export const projects: Project[] = [
   },
   {
     slug: "sangrel-trading-analytics",
-    title: "Sangrel — Trading Analytics Platform",
+    title: "Sangrel: Trading Analytics Platform",
     tagline:
-      "Solo-built, production-grade trading analytics platform for a UAE client — deployed end-to-end with full DevOps ownership.",
+      "Solo-built, production-grade trading analytics platform for a UAE client, deployed end-to-end with full DevOps ownership.",
     category: "Fintech",
     featured: true,
     rank: 4,
@@ -125,7 +125,7 @@ export const projects: Project[] = [
     ],
     metrics: [{ value: "1", label: "Solo developer, end-to-end" }],
     problem:
-      "A UAE-based client needed a production-ready trading analytics platform built and shipped by a single developer — from requirements gathering through architecture, development, and go-live deployment.",
+      "A UAE-based client needed a production-ready trading analytics platform built and shipped by a single developer, from requirements gathering through architecture, development, and go-live deployment.",
     architecture: [
       "Django REST Framework backend with JWT authentication, RBAC, and a modular app structure for long-term maintainability.",
       "Supabase (managed PostgreSQL) as the primary data layer, leveraging real-time and storage capabilities.",
@@ -134,7 +134,7 @@ export const projects: Project[] = [
       "Multi-layered authentication (JWT + session checks) securing all admin and analytics routes.",
     ],
     outcome: [
-      "Delivered a live trading analytics platform solo — architecture through production deployment.",
+      "Delivered a live trading analytics platform solo, from architecture through production deployment.",
       "Full operational control via the Super Admin Portal (user management, permissions, system health).",
       "Secured, high-availability deployment with automated HTTPS, CDN, and DDoS protection via Cloudflare.",
     ],

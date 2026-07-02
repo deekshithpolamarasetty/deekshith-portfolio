@@ -18,7 +18,7 @@ export function CtaBanner() {
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:mt-8 sm:flex-row">
               <Button href="/contact" size="lg" className="w-full sm:w-auto">
-                Get in touch
+                Hire Me
                 <ArrowRight size={18} />
               </Button>
               <Button
@@ -27,7 +27,7 @@ export function CtaBanner() {
                 size="lg"
                 className="w-full sm:w-auto"
               >
-                See my work
+                View Work
               </Button>
             </div>
           </div>

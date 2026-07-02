@@ -14,7 +14,7 @@ export const siteConfig = {
   description:
     "Full Stack Software Engineer with 4+ years building scalable, distributed, multi-tenant SaaS systems. Microservices, event-driven architecture, and cloud infrastructure.",
   tagline:
-    "I architect scalable, multi-tenant SaaS platforms — from microservices to production deployment.",
+    "I architect scalable, multi-tenant SaaS platforms, from microservices to production deployment.",
 } as const;
 
 export const navLinks = [
